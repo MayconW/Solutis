@@ -19,7 +19,7 @@ public abstract class AnimalAB implements AnimalIF {
 	public abstract void dormir();
 	
 	
-
+	
 	 public abstract void comer(int quantidadeComida);
 	 public abstract void moverse(int distancia);
 	 public abstract void dormir(int horas);
