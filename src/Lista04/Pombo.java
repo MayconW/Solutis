@@ -38,7 +38,7 @@ public class Pombo extends AnimalVoadorAB {
 	 public void moverse(int distancia) {
 			this.distanciaPercorrida+=distancia;
 				
-			System.out.println(getTipo() +" " +this.getNome() +" Distancia percorrida: " + distanciaPercorrida);
+			System.out.println(getTipo() +" " +this.getNome() +" Voou a Distancia : " + distanciaPercorrida);
 		}
 		public void moverse() {
 			moverse(1);

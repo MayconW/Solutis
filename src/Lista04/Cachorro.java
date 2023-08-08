@@ -20,7 +20,7 @@ public class Cachorro extends AnimalAB {
 
 		this.comidasIngeridas+=quantidade;
 
-		System.out.println(getTipo() +" " +this.getNome() + " quantidade de comida ingerida: " + comidasIngeridas);
+		System.out.println(getTipo() +" " +this.getNome() + " quantidade de racao ingerida: " + comidasIngeridas);
 
 	}
 	@Override
