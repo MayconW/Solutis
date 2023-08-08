@@ -1,11 +1,6 @@
 package Banco;
 
 
-/*Cliente
-– Atributos:
-• String cpf, String nome, String endereco, String anoNascimento*/
-
-
 public class Cliente {
 
     private String cpf, nome, endereco, anoNascimento;

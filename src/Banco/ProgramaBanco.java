@@ -1,7 +1,4 @@
 package Banco;
-/*Na classe ProgramaBanco.java (com main), crie uma conta corrente, atualize todos
-os atributos obrigatórios, faça alguns créditos e alguns débitos e depois imprima o
-resumo da conta corrente.*/
 
 public class ProgramaBanco {
     public static void main(String[] args) {
