@@ -17,13 +17,5 @@ public class ProgramaBanco {
         contaUnica.resumo();
 
 
-        
-
-
-
-
-
-
-
     }
 }
