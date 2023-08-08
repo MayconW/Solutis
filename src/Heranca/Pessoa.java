@@ -5,7 +5,6 @@ public class Pessoa {
     private String nome, endereco, telefone;
 
     public Pessoa(String nome, String endereco, String telefone) {
-        super();
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
@@ -14,7 +13,7 @@ public class Pessoa {
     public Pessoa(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
-        this.telefone="Nao Cadastrado!";
+        this.telefone = "Telefone nao cadastrado!";
     }
 
     public String getNome() {

@@ -4,7 +4,6 @@ package Heranca;
 public class Main {
 
 
-
     static void imprime_fornecedor(Fornecedor fornecedor) {
 
         System.out.println("-------------------------------------------------");
@@ -15,6 +14,7 @@ public class Main {
         System.out.println("Valor de Credito: " + fornecedor.getValorCredito());
         System.out.println("Valor de Divida: " + fornecedor.getValorDivida());
     }
+
     private static void dados(Empregado empregado) {
         System.out.println("Endereco: " + empregado.getEndereco());
         System.out.println("Telefone: " + empregado.getTelefone());
@@ -32,7 +32,6 @@ public class Main {
         System.out.println("Salario Liquido: " + empregado.calcularSalario());
 
     }
-
 
 
     static void imprime_administrador(Administrador administrador) {
@@ -81,7 +80,6 @@ public class Main {
         imprime_administrador(administrador);
         imprime_operario(operario);
         imprime_vendedor(vendedor);
-
 
     }
 }
