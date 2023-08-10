@@ -34,17 +34,5 @@ public class Vendedor extends Empregado {
 
 
 
-    public static void main(String[] args) {
-        Vendedor vendedor = new Vendedor("Ana", "Rua D", "777777777", 4, 1200.0, 12.0, 10000.0, 3.0);
 
-        System.out.println("Nome: " + vendedor.getNome());
-        System.out.println("Endereço: " + vendedor.getEndereco());
-        System.out.println("Telefone: " + vendedor.getTelefone());
-        System.out.println("Código Setor: " + vendedor.getCodigoSetor());
-        System.out.println("Salário Base: " + vendedor.getSalarioBase());
-        System.out.println("Imposto: " + vendedor.getImposto() + "%");
-        System.out.println("Valor Vendas: " + vendedor.getValorVendas());
-        System.out.println("Comissão: " + vendedor.getComissao() + "%");
-        System.out.println("Salário Vendedor: " + vendedor.calcularSalario());
-    }
 }
